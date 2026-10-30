@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  min-width: 1000px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #010736;
+  padding: 30px;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 30px;
+  font-size: 1.15rem;
+  font-family: "Nova Flat", system-ui;
+  padding-right: 7%;
+}
+.bigbunz {
+  color: antiquewhite;
+  font-family: "Nova Flat", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 7%;
+}
+.nav-list a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.nav-list a:hover {
+  color: #04438e;
+  transition: 0.4s;
+  text-decoration: underline;
+}
+.content {
+  background-color: #0d1c42;
+  padding: 40px;
+}
+.title {
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: antiquewhite;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.times {
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: #0d1c42;
+}
+.div-list {
+  list-style: none;
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: #0d1c42;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.title2 {
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: antiquewhite;
+}
+.title2 a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.title2 a:hover {
+  color: #04438e;
+  transition: 0.4s;
+}
+.div-times {
+  background-color: #fcf1d0;
+  padding: 30px;
+  width: 40%;
+  border-radius: 12px;
+  margin-left: 90px;
+}
+.both {
+  display: flex;
+  justify-content: space-between;
+}
+.loc {
+  background-color: #fcf1d0;
+  padding: 30px;
+  width: 40%;
+  border-radius: 12px;
+  margin-right: 90px;
+}
+.loc-title {
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: #0d1c42;
+}
+.loc-details {
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: #0d1c42;
+  padding-top: 15px;
+}
+.menu {
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: #0d1c42;
+  background-color: #fcf1d0;
+  margin-top: 40px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+.menu2 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15%;
+}
+.menu-title {
+  padding-left: 20%;
+}
+.menu-list {
+  list-style: inside;
+  padding-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.img-out {
+  height: 600px;
+  width: 87.5%;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+.div-under {
+  background-color: #22396f;
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: antiquewhite;
+  display: flex;
+}
+.under-title {
+  padding: 20px;
+}
+.contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer {
+  background-color: #22396f;
+  font-family: "Nova Flat", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: antiquewhite;
+  padding: 10px 20px 8px 20px;
+}
